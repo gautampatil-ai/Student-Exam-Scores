@@ -3,7 +3,7 @@ import pickle
 import numpy as np
 
 # Load the trained model
-model = pickle.load(open('student_model.pkl', 'rb'))
+model = pickle.load(open('model.pkl', 'rb'))
 
 # App title
 st.title("🎓 Student Score Prediction App")
